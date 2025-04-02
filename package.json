@@ -18,7 +18,7 @@
     "eslint": "9.19.0",
     "eslint-config-next": "15.1.6",
     "express-validator": "^7.2.1",
-    "next": "15.1.6",
+    "next": "15.2.4",
     "next-auth": "^4.24.11",
     "react": "19.0.0",
     "react-dom": "19.0.0",
