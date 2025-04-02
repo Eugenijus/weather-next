@@ -14,9 +14,9 @@ export const customizeErrorMessage = (req, customError) => {
   console.log("validationErrors: ", validationErrors);
   if (!validationErrors.isEmpty()) {
     const validationError = validationErrors.errors.map((error) => {
-      return error.msg + ": " + error.param;
+      return `${error.msg  }: ${  error.param}`;
     });
-    throw new Error(validationError + ". " + customError);
+    throw new Error(`${validationError  }. ${  customError}`);
   }
 };
 

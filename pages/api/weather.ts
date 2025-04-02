@@ -1,7 +1,7 @@
-import { NextApiRequest, NextApiResponse } from "next";
 import axios from "axios";
-import { weatherCodes } from "./utils/weatherCodes";
+import { NextApiRequest, NextApiResponse } from "next";
 import { customizeErrorMessage, errorHandler } from "./utils/errorHandler";
+import { weatherCodes } from "./utils/weatherCodes";
 import { locationValidation } from "./validations/queryValidation";
 
 const URL = process.env.WEATHER_API_URL;

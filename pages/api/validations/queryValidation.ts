@@ -35,5 +35,4 @@ export const citiesValidation = [
     .not()
     .isArray()
     .withMessage("Cannot have multiple parameters"),
-  ,
 ];

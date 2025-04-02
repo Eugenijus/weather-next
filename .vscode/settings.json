@@ -12,13 +12,19 @@
   // "Jest Runner" extension settings
   "jestrunner.codeLens": ["run", "debug", "watch"],
   
-  // "ESLint" extension settgins
+  // "ESLint" extension settings
   "eslint.validate": ["javascript", "typescript"],
-  
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
   // Git Blame extension settings
   "gitblame.commitUrl": "${tool.protocol}//github.com${gitorigin.path}${tool.commitpath}${hash}",
   "gitblame.infoMessageFormat": "${commit.summary}",
   "gitblame.inlineMessageFormat": "${author.name} (${time.ago}) • ${commit.summary} •",
   "gitblame.inlineMessageEnabled": true,
-  "gitblame.inlineMessageMargin": 4
+  "gitblame.inlineMessageMargin": 4,
+
+  // TypeScript SDK
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
