@@ -11,7 +11,7 @@
     "format": "prettier --write --ignore-path .gitignore --ignore-path .prettierignore \"**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "@types/node": "22.13.17",
+    "@types/node": "22.14.0",
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.1",
     "axios": "^1.8.4",
