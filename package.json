@@ -11,21 +11,21 @@
     "format": "prettier --write --ignore-path .gitignore --ignore-path .prettierignore \"**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "@types/node": "22.13.17",
+    "@types/node": "22.14.0",
     "@types/react": "19.1.0",
-    "@types/react-dom": "19.1.1",
+    "@types/react-dom": "19.1.2",
     "axios": "^1.8.4",
-    "eslint": "9.23.0",
-    "eslint-config-next": "15.2.4",
+    "eslint": "9.24.0",
+    "eslint-config-next": "15.3.0",
     "express-validator": "^7.2.1",
-    "next": "15.2.4",
+    "next": "15.3.0",
     "next-auth": "^4.24.11",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "typescript": "5.8.2"
+    "typescript": "5.8.3"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^10.1.1",
+    "eslint-config-prettier": "^10.1.2",
     "prettier": "^3.5.3",
     "eslint-plugin-import": "^2.31.0"
   }
